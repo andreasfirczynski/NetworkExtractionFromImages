@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to Nefi 2.0 Technologies documentation! &mdash; Technologies 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Technologies 1.0 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="#">Technologies 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="welcome-to-nefi-2-0-technologies-documentation">
+<h1>Welcome to Nefi 2.0 Technologies documentation!<a class="headerlink" href="#welcome-to-nefi-2-0-technologies-documentation" title="Permalink to this headline">¶</a></h1>
+<p>The following is a general overview of all used technologies in Nefi 2.0.</p>
+<p>We will shortly introduce you all packages and where you can find more informations about it.</p>
+<div class="section" id="technologies">
+<h2>Technologies:<a class="headerlink" href="#technologies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="numpy-1-10-4">
+<h3>NumPy 1.10.4<a class="headerlink" href="#numpy-1-10-4" title="Permalink to this headline">¶</a></h3>
+<p>NumPy is an extension package to Python adding support for large, multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays. Since the images in OpenCV are represented as arrays, NumPy was a great help for us. More informations you can find on the webpage of <a class="reference external" href="http://www.numpy.org">NumPy</a></p>
+</div>
+<div class="section" id="networkx-1-10">
+<h3>NetworkX 1.10<a class="headerlink" href="#networkx-1-10" title="Permalink to this headline">¶</a></h3>
+<p>NetworkX is a Python language software package for studying graphs and networks. We used it to construct and refine the graphs from the images in the Graph detection and Graph filtering section. More informations you can find on the webpage of <a class="reference external" href="https://networkx.github.io">NetworkX</a></p>
+</div>
+<div class="section" id="demjson-2-2-4">
+<h3>demjson 2.2.4<a class="headerlink" href="#demjson-2-2-4" title="Permalink to this headline">¶</a></h3>
+<p>The “demjson” module, and the included “jsonlint” script, provide methods for encoding and decoding JSON formatted data, as well as checking JSON data for errors and/or portability issues. The jsonlint command/script can be used from the command line without needing any programming. More informations you can find on the webpage of <a class="reference external" href="https://pypi.python.org/pypi/demjson/2.2.4">demjson</a></p>
+</div>
+<div class="section" id="decorator-4-0-9">
+<h3>decorator 4.0.9<a class="headerlink" href="#decorator-4-0-9" title="Permalink to this headline">¶</a></h3>
+<p>Python decorators are an interesting example of why syntactic sugar matters. It is your best option if you want to preserve the signature of decorated functions in a consistent way across Python releases. It helped us to reduce boilerplate code and by the separation of concerns, so that it enhanced the readability and maintenability of this project. More informations you can find on the webpage of <a class="reference external" href="https://pypi.python.org/pypi/decorator">decorator</a></p>
+</div>
+<div class="section" id="qdarkstylesheet">
+<h3>QDarkStyleSheet<a class="headerlink" href="#qdarkstylesheet" title="Permalink to this headline">¶</a></h3>
+<p>A dark stylesheet for Qt applications, which looks awesome. More informations you can find on the webpage of <a class="reference external" href="https://github.com/ColinDuquesnoy/QDarkStyleSheet">QDarkStyleSheet</a></p>
+</div>
+<div class="section" id="thinning-1-2-3">
+<h3>thinning 1.2.3<a class="headerlink" href="#thinning-1-2-3" title="Permalink to this headline">¶</a></h3>
+<p>Thinning is the operation that takes a binary image and contracts the foreground until only single-pixel wide lines remain. It is also known as skeletonization.
+This package implements the thinning algorithm by Guo and Hall[1] for Numpy arrays. It is thus compatible with OpenCV. The algorithm is implemented in C and fairly fast.
+More informations you can find on the webpage of <a class="reference external" href="https://github.com/tastyminerals/thinning_py3">thinning</a></p>
+</div>
+<div class="section" id="opencv-3-1-0">
+<h3>OpenCV 3.1.0<a class="headerlink" href="#opencv-3-1-0" title="Permalink to this headline">¶</a></h3>
+<p>OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code. More informations you can find on the webpage of <a class="reference external" href="http://opencv.org">OpenCV</a></p>
+</div>
+<div class="section" id="pyqt5">
+<h3>PyQt5<a class="headerlink" href="#pyqt5" title="Permalink to this headline">¶</a></h3>
+<p>PyQt is a Python binding of the cross-platform GUI toolkit Qt. It is one of Python&#8217;s options for GUI programming and runs on all platforms supported by Qt including Windows, MacOS/X and Linux.  The bindings are implemented as a set of Python modules. More informations you can find on the webpage of <a class="reference external" href="https://riverbankcomputing.com/software/pyqt/intro">PyQt</a></p>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to Nefi 2.0 Technologies documentation!</a><ul>
+<li><a class="reference internal" href="#technologies">Technologies:</a><ul>
+<li><a class="reference internal" href="#numpy-1-10-4">NumPy 1.10.4</a></li>
+<li><a class="reference internal" href="#networkx-1-10">NetworkX 1.10</a></li>
+<li><a class="reference internal" href="#demjson-2-2-4">demjson 2.2.4</a></li>
+<li><a class="reference internal" href="#decorator-4-0-9">decorator 4.0.9</a></li>
+<li><a class="reference internal" href="#qdarkstylesheet">QDarkStyleSheet</a></li>
+<li><a class="reference internal" href="#thinning-1-2-3">thinning 1.2.3</a></li>
+<li><a class="reference internal" href="#opencv-3-1-0">OpenCV 3.1.0</a></li>
+<li><a class="reference internal" href="#pyqt5">PyQt5</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Nefi 2.0 Technologies.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="#">Technologies 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2016, Andreas Firczynski.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
