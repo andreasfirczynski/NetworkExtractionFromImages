@@ -1,0 +1,7 @@
+  [
+    ["Grabcut - Dilation Erosion Otsu",{"Foreground Iteration":2,"Background Iteration":1,"Grabcut Iteration":5,"store_image":false,"type":"Segmentation"}],
+    ["Guo Hall Thinning",{"store_image":false,"type":"Graph detection"}],
+    ["Keep only largest connected component",{"store_image":false,"type":"Graph filtering"}],
+    ["Simple cycle filter",{"store_image":false,"type":"Graph filtering"}],
+    ["Smooth degree 2 nodes",{"store_image":false,"type":"Graph filtering"}]
+  ]
